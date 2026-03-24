@@ -1,0 +1,67 @@
+/* Câu 2: Định dạng External CSS */
+
+/* body (Bộ chọn phần tử) */
+body {
+    font-family: Arial, sans-serif;
+    /* Kiểu chữ mặc định */
+    background-color: #f0f0f0;
+    /* Màu nền xám nhạt */
+    margin: 0;
+    padding: 20px;
+}
+
+/* #avatar (Bộ chọn ID) */
+#avatar {
+    width: 150px;
+    /* Chiều rộng 150px */
+    height: 150px;
+    /* Chiều cao 150px */
+    border-radius: 50%;
+    /* Bo tròn thành hình tròn */
+    border: 3px solid blue;
+    /* Viền 3px, liền nét, màu xanh dương */
+    display: block;
+    /* Hiển thị như một khối (block) */
+    margin: 20px auto;
+    /* Lề trên dưới 20px, căn giữa ngang */
+    object-fit: cover;
+}
+
+/* h1, h2 (Bộ chọn phần tử) */
+h1 {
+    color: #333333;
+    /* Màu chữ xám đậm cho h1 */
+    text-align: center;
+    /* Căn giữa h1 theo chiều ngang */
+}
+
+h2 {
+    text-align: center;
+    /* Căn giữa h2 theo chiều ngang (theo mẫu hình) */
+}
+
+/* p (Bộ chọn phần tử) */
+p {
+    color: #666666;
+    /* Màu chữ xám nhạt */
+    line-height: 1.6;
+    /* Khoảng cách giữa các dòng 1.6 */
+    width: 60%;
+    /* Chiều rộng 60% phần tử cha */
+    margin: 0 auto;
+    /* Căn giữa đoạn văn theo chiều ngang */
+    text-align: center;
+    /* Căn lề văn bản bên trong */
+}
+
+/* ul (Bộ chọn phần tử) */
+ul {
+    list-style-type: square;
+    /* Kiểu danh sách hình vuông */
+    width: 50%;
+    /* Chiều rộng 50% phần tử cha */
+    margin: 20px auto;
+    /* Lề trên dưới 20px, căn giữa ngang */
+    padding-left: 40px;
+    /* Tạo khoảng trống cho bullet */
+}
